@@ -1,23 +1,60 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
-    <title>MUD专属页面</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MUD长文页面</title>
     <style>
         body {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            margin: 0;
-            font-size: 32px;
-            font-family: sans-serif;
-            background-color: #f0f0f0;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            font-family: "Microsoft Yahei", sans-serif;
+            line-height: 1.8;
             color: #333;
+            background: #f8f9fa;
+        }
+        h1, h2, h3 {
+            color: #222;
+            margin-top: 30px;
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 1.2em;
+            text-indent: 2em;
+        }
+        ul, ol {
+            margin-left: 1.5em;
+            margin-bottom: 1.2em;
+        }
+        blockquote {
+            border-left: 4px solid #007bff;
+            padding-left: 1em;
+            color: #555;
+            font-style: italic;
+            margin: 1.2em 0;
         }
     </style>
 </head>
 <body>
-    QQ群：520130610
+    <h1>这里是文章大标题</h1>
+    <p>这里是第一段正文，你可以把很长的内容放在这里。</p>
+
+    <h2>二级标题</h2>
+    <p>第二段正文，支持换行、分段，浏览器会自动排版。</p>
+
+    <h3>三级小标题</h3>
+    <p>第三段正文，你可以继续往下写，也可以用列表：</p>
+    <ul>
+        <li>列表项1</li>
+        <li>列表项2</li>
+        <li>列表项3</li>
+    </ul>
+
+    <blockquote>
+        这里是引用块，适合放重点内容或名言。
+    </blockquote>
+
+    <p>最后一段正文，内容可以无限长，页面会自动滚动。</p>
 </body>
 </html>
